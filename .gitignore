@@ -1,0 +1,8 @@
+.idea
+create_vm.sh
+debian-12.5.0-amd64-netinst.iso
+debian.env
+install_florent.sh
+preseed_debian_bookworm.cfg
+preseed_florent.cfg
+preseed_xavki.cfg
