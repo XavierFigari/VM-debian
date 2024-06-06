@@ -13,5 +13,5 @@ chown -R $user:$user /home/$user/.ssh
 chmod 600 /home/$user/.ssh/authorized_keys
 
 # Allow user to enter sudo commands with no password
-echo "$user ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/sudoers.d/$user
+echo "$user ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/$user
 chmod 440 /etc/sudoers.d/$user
