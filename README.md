@@ -3,6 +3,6 @@ Demonstrate the unattended creation of a Debian virtual machine, using the follo
 - virt-install
 - Debian preseed configuration file
 
-For now, the script creates a virtual machine with:
+The script creates a virtual machine with:
 - A Debian stable netinst ISO (Bookworm, Debian12)
 - one user, no root
